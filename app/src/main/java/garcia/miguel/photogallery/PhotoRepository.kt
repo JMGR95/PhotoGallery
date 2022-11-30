@@ -6,6 +6,7 @@ import garcia.miguel.photogallery.api.PhotoInterceptor
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
+import retrofit2.create
 
 class PhotoRepository {
     private val flickrApi: FlickrApi
